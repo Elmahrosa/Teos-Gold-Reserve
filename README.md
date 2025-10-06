@@ -52,4 +52,15 @@ cd ../backend && npm install && npm run dev
 
 # Frontend
 cd ../frontend && npm install && npm run dev
+git clone https://github.com/Elmahrosa/teos-gold-reserve.git
+cd teos-gold-reserve
+
+# Smart Contract
+cd contracts && anchor build
+
+# Backend
+cd ../backend && npm install && npm run dev
+
+# Frontend
+cd ../frontend && npm install && npm run dev
 
