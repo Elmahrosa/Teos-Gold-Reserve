@@ -41,4 +41,15 @@ mint_tgr(user, amount)
 burn_tgr(user, amount)
 update_reserve(auditor_data)
 get_reserve_state()
+git clone https://github.com/Elmahrosa/teos-gold-reserve.git
+cd teos-gold-reserve
+
+# Smart Contract
+cd contracts && anchor build
+
+# Backend
+cd ../backend && npm install && npm run dev
+
+# Frontend
+cd ../frontend && npm install && npm run dev
 
