@@ -64,3 +64,14 @@ cd ../backend && npm install && npm run dev
 # Frontend
 cd ../frontend && npm install && npm run dev
 
+🧩 Roadmap
+
+✅ Devnet token + mock reserve
+
+🔜 Public frontend with Phantom wallet
+
+🔜 Mainnet deployment + auditor API
+
+🔜 Vault partners in Egypt/UAE/KSA
+
+🔜 Regulatory filing under CBB/FRA
