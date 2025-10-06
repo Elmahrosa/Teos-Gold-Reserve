@@ -1,0 +1,28 @@
+teos-gold-reserve/
+│
+├── contracts/                  # Anchor smart contract (Rust)
+│   └── programs/tgr/
+│       ├── Cargo.toml
+│       └── src/lib.rs
+│
+├── backend/                    # Node.js backend API
+│   ├── server.js
+│   ├── routes/
+│   ├── controllers/
+│   └── database/
+│
+├── frontend/                   # React + Tailwind app
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── utils/
+│   ├── package.json
+│   └── tailwind.config.js
+│
+├── docs/
+│   ├── README.md
+│   ├── whitepaper.md
+│   └── api-reference.md
+│
+└── .github/
+    └── workflows/ci.yml
