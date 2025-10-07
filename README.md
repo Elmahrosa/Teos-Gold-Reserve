@@ -1,4 +1,4 @@
-# Teos-gold-reserve
+# Teos-Gold-Reserve
 Repository created autonomously  by Elmahrosa International
 “Solana-based gold-backed digital-asset protocol under TEOS Egypt.”
 # 🪙 TEOS Gold Reserve (TGR)
