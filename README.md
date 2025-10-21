@@ -1,77 +1,44 @@
-# Teos-Gold-Reserve
-Repository created autonomously  by Elmahrosa International
-“Solana-based gold-backed digital-asset protocol under TEOS Egypt.”
-# 🪙 TEOS Gold Reserve (TGR)
+# 🪙 TEOS Gold Reserve ($TGR)
 
-A Solana-based **gold-backed digital-asset platform** by **TEOS Egypt**.
-
----
-
-## 🌍 Vision
-Tokenize real gold holdings into on-chain assets that anyone can buy, trade, or redeem directly through the TEOS ecosystem.
+A Solana-based **gold-backed digital asset** protocol deployed by **Elmahrosa International** under the **TEOS Egypt** ecosystem.
 
 > “The Gold of the Pharaohs — tokenized for the new age.”
 
 ---
 
+## 🌍 Vision
+
+Tokenize real gold holdings into on-chain assets that contributors can **mint, hold, redeem, or audit** — with full civic transparency and UID-bound access.
+
+---
+
 ## ⚙️ Architecture
-- **Smart Contract:** Solana Anchor Program controlling mint/burn logic + reserve proofs  
-- **Backend:** Express API (Node.js) for KYC, reserve audits, and redemption requests  
-- **Frontend:** React + Tailwind + shadcn/ui (deployed on Vercel)  
-- **Payments:** Accepts $ERT, $TEOS, and SOL  
+
+- **Smart Contract:** Solana Anchor Program for mint/burn logic and reserve sync  
+- **Backend:** Node.js API for KYC, redemption, and reserve updates  
+- **Frontend:** React + Tailwind + shadcn/ui (Vercel)  
+- **Payments Accepted:** $ERT, $TEOS, SOL
 
 ---
 
 ## 🪙 Token Specs
-| Field | Value |
-|-------|-------|
-| Name | TEOS Gold Reserve |
-| Symbol | $TGR |
-| Network | Solana SPL |
-| Backing | 1 gram physical gold per token |
-| Supply | Dynamic (1:1 mint to physical reserve) |
-| Redeemable Assets | Gold or equivalent $ERT value |
+
+| Field             | Value                          |
+|------------------|----------------------------------|
+| Name             | TEOS Gold Reserve               |
+| Symbol           | $TGR                            |
+| Network          | Solana SPL                      |
+| Backing          | 1 gram physical gold per token  |
+| Mint Logic       | 1:1 ratio with verified reserve |
+| Redemption       | Physical gold or $ERT equivalent|
 
 ---
 
-## 🧱 Smart Contract Outline
+## 🔧 Smart Contract Functions
+
 ```rust
-initialize_reserve()
-mint_tgr(user, amount)
-burn_tgr(user, amount)
-update_reserve(auditor_data)
-get_reserve_state()
-git clone https://github.com/Elmahrosa/teos-gold-reserve.git
-cd teos-gold-reserve
-
-# Smart Contract
-cd contracts && anchor build
-
-# Backend
-cd ../backend && npm install && npm run dev
-
-# Frontend
-cd ../frontend && npm install && npm run dev
-git clone https://github.com/Elmahrosa/teos-gold-reserve.git
-cd teos-gold-reserve
-
-# Smart Contract
-cd contracts && anchor build
-
-# Backend
-cd ../backend && npm install && npm run dev
-
-# Frontend
-cd ../frontend && npm install && npm run dev
-
-🧩 Roadmap
-
-✅ Devnet token + mock reserve
-
-🔜 Public frontend with Phantom wallet
-
-🔜 Mainnet deployment + auditor API
-
-🔜 Vault partners in Egypt/UAE/KSA
-
-🔜 Regulatory filing under CBB/FRA
+initialize_reserve()              // Set up reserve vault
+mint_tgr(user, amount)            // Mint TGR to UID-bound wallet
+burn_tgr(user, amount)            // Burn TGR for redemption
+update_reserve(auditor_data)      // Sync reserve state
+get_reserve_state()               // View current reserve
