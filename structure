@@ -1,28 +1,48 @@
-teos-gold-reserve/
+Teos-Gold-Reserve/
+├── programs/
+│   └── tgr_mint.rs                  # Solana SPL mint logic
 │
-├── contracts/                  # Anchor smart contract (Rust)
-│   └── programs/tgr/
-│       ├── Cargo.toml
-│       └── src/lib.rs
+├── web/
+│   ├── pages/
+│   │   ├── index.tsx                # Hero + CTA
+│   │   ├── reserve.tsx              # Deposit + mint
+│   │   ├── convert.tsx              # ERT → TGR swap
+│   │   ├── referral.tsx             # Invite + badge
+│   │   └── tasks.tsx                # Civic quests
+│   ├── components/
+│   │   ├── WalletConnect.tsx
+│   │   ├── QuestList.tsx
+│   │   └── BadgeMint.tsx
+│   └── public/assets/branding/
+│       ├── hero.gif
+│       ├── gradient.svg
+│       └── logo.svg
 │
-├── backend/                    # Node.js backend API
-│   ├── server.js
-│   ├── routes/
-│   ├── controllers/
-│   └── database/
+├── firebase/
+│   ├── firestore.rules              # UID-bound access
+│   └── functions/
+│       ├── verifyPetition.ts
+│       ├── logCivicAction.ts
+│       └── enforceGate.ts
 │
-├── frontend/                   # React + Tailwind app
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── utils/
-│   ├── package.json
-│   └── tailwind.config.js
+├── modules/
+│   ├── reserve.ts                   # Deposit + mint
+│   ├── wallet.ts                    # UID ↔ wallet
+│   ├── referral.ts                  # Invite logic
+│   ├── tasks.ts                     # Quest engine
+│   ├── convert.ts                   # ERT → TGR swap
+│   └── audit.ts                     # Markdown logs
 │
-├── docs/
-│   ├── README.md
-│   ├── whitepaper.md
-│   └── api-reference.md
+├── schema/
+│   ├── reserve.schema.json
+│   ├── wallet.schema.json
+│   ├── referral.schema.json
+│   ├── tasks.schema.json
+│   ├── convert.schema.json
+│   └── audit.schema.json
 │
-└── .github/
-    └── workflows/ci.yml
+├── audits/
+│   └── reserve_ledger.md
+│
+├── README.md
+└── LICENSE
