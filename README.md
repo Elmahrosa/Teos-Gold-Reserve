@@ -22,7 +22,7 @@ Each $TGR token represents **1 gram of 99.99% physical gold**, fully auditable, 
 | ⚙️ Backend API | Node.js / Firebase Functions for KYC, audits, petition, and reserve updates |
 | 🖥️ Frontend | React + Tailwind + shadcn/ui (deployed on Vercel) |
 | 🔐 Civic Identity Layer | Firebase Auth + UID ↔ Wallet mapping |
-| 💰 Accepted Payments | $ERT, $TEOS, and SOL |
+| 💰 Accepted Payments | PI, $ERT, $TEOS, and SOL |
 | 🪙 Network | Solana SPL standard |
 
 ---
