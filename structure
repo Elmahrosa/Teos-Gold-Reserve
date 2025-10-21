@@ -1,38 +1,20 @@
 Teos-Gold-Reserve/
 ├── programs/
-│   └── tgr_mint.rs                  # Solana SPL mint logic
-│
+│   └── tgr_mint.rs
 ├── web/
 │   ├── pages/
-│   │   ├── index.tsx                # Hero + CTA
-│   │   ├── reserve.tsx              # Deposit + mint
-│   │   ├── convert.tsx              # ERT → TGR swap
-│   │   ├── referral.tsx             # Invite + badge
-│   │   └── tasks.tsx                # Civic quests
 │   ├── components/
-│   │   ├── WalletConnect.tsx
-│   │   ├── QuestList.tsx
-│   │   └── BadgeMint.tsx
 │   └── public/assets/branding/
-│       ├── hero.gif
-│       ├── gradient.svg
-│       └── logo.svg
-│
 ├── firebase/
-│   ├── firestore.rules              # UID-bound access
+│   ├── firestore.rules
 │   └── functions/
-│       ├── verifyPetition.ts
-│       ├── logCivicAction.ts
-│       └── enforceGate.ts
-│
 ├── modules/
-│   ├── reserve.ts                   # Deposit + mint
-│   ├── wallet.ts                    # UID ↔ wallet
-│   ├── referral.ts                  # Invite logic
-│   ├── tasks.ts                     # Quest engine
-│   ├── convert.ts                   # ERT → TGR swap
-│   └── audit.ts                     # Markdown logs
-│
+│   ├── reserve.ts
+│   ├── wallet.ts
+│   ├── referral.ts
+│   ├── tasks.ts
+│   ├── convert.ts
+│   └── audit.ts
 ├── schema/
 │   ├── reserve.schema.json
 │   ├── wallet.schema.json
@@ -40,9 +22,7 @@ Teos-Gold-Reserve/
 │   ├── tasks.schema.json
 │   ├── convert.schema.json
 │   └── audit.schema.json
-│
 ├── audits/
 │   └── reserve_ledger.md
-│
 ├── README.md
 └── LICENSE
