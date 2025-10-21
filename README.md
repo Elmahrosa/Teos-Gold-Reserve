@@ -41,6 +41,17 @@ Each $TGR token represents **1 gram of 99.99% physical gold**, fully auditable, 
 | Admin Wallet | `Akvm3CbDN448fyD8qmQjowgBGpcYZtjuKFL4xT8PZhbF` |
 
 ---
+## 🧱 Architecture Overview
+
+| Layer                  | Description                                                                 |
+|------------------------|------------------------------------------------------------------------------|
+| 🧩 Smart Contract       | Solana Anchor program for mint/burn logic and reserve synchronization        |
+| ⚙️ Backend API          | Node.js + Firebase Functions for KYC, petition verification, and audit sync  |
+| 🖥️ Frontend             | React + Tailwind + shadcn/ui (deployed on Vercel)                            |
+| 🔐 Civic Identity Layer | Firebase Auth + UID ↔ Wallet mapping for contributor verification            |
+| 💰 Accepted Payments    | $ERT, $TEOS, and SOL                                                         |
+| 🪙 Network              | Solana SPL standard                                                          |
+
 
 ## 🔧 Smart Contract Functions
 
