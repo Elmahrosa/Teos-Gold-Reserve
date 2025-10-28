@@ -133,7 +133,29 @@ Accessible at `http://localhost:3000` or your Vercel deployment.
 * **Physical Reserve** stored and audited quarterly.
 * **Legal Note:** $TGR is a representation token; redemption subject to jurisdictional compliance.
 
+## 🏦 Reserve Transparency & Audit
+
+The **TEOS Gold Reserve ($TGR)** is fully backed by **audited physical gold holdings**, verified under **Elmahrosa International Treasury**.
+
+### Reserve Details
+- **Type:** 99.99% Pure Gold Bullion  
+- **Backing Ratio:** 1 TGR = 1 gram of gold  
+- **Storage:** Partner vaults in **Egypt** and **Dubai**  
+- **Auditor:** TEOS Treasury Oversight Committee  
+- **Audit Frequency:** Quarterly (public reports on [teosegypt.com](https://teosegypt.com))
+
+### Proof of Reserve
+Each audit report includes:
+- Serial numbers of certified gold bars  
+- Total weight, purity, and valuation  
+- Treasury wallet snapshots  
+- Independent auditor confirmation & signature  
+
+📅 **Next Audit Publication:** Q1 2026 — timestamped on-chain for transparency.
+
 ---
+
+© 2025 **TEOS Gold Reserve ($TGR)** · Powered by Elmahrosa International · Built on Solana & Pi Network
 
 ## 📊 Transparency Dashboard (Coming Soon)
 
@@ -157,10 +179,4 @@ Accessible at `http://localhost:3000` or your Vercel deployment.
 
 **Powered by Elmahrosa International**
 Built in Egypt 🇪🇬 | Backed by Gold | Secured by Blockchain
-
-```
-
----
-
-Would you like me to add a **“Deployment Guide” section** next (for Vercel + Solana + PiNet integration), so you can include it as `DEPLOYMENT.md` in the same repo?
 ```
