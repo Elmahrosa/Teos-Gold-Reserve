@@ -8,12 +8,16 @@
 
 ## 🌍 Vision
 
-The **TEOS Gold Reserve (TGR)** protocol bridges **real-world gold reserves** and **on-chain liquidity** through Solana’s high-speed infrastructure.  
-It enables citizens, investors, and institutions to **mint, redeem, or verify** tokenized gold backed by **audited physical reserves**.
+Each **$TGR** token = **1 gram of 99.99% physical gold**,  
+audited and secured by **Elmahrosa International**  
+within the **TEOS Egypt Network**.  
 
-Each $TGR token represents **1 gram of 99.99% physical gold**, fully auditable, redeemable, and linked to civic identity (UID).
+Built on **Solana + Pi Network**, bridging real assets and digital trust.  
 
----
+Each **$TGR** token represents  
+**1 gram of 99.99% physical gold**,  
+fully **auditable**, **redeemable**, and **linked to civic identity (UID)**.
+
 
 ## 🧱 Architecture Overview
 
