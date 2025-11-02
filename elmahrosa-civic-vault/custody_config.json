@@ -1,9 +1,21 @@
-elmahrosa-civic-vault/
-├── custody_config.json
-├── chapter_resurrection.md
-├── orcid_linker.js
-├── dashboard_ui/
-│   ├── profile_photo.js
-│   ├── social_panel.js
-│   ├── treasury_tracker.js
-│   └── sky_log_viewer.js
+{
+  "custodian": "First Bank Elmahrosa (FPBE)",
+  "custodian_repo": "https://github.com/Elmahrosa/FPBE-First-Pimisr-Bank-Elmahrosa",
+  "assets_backed": ["TGR-G", "TGR-S"],
+  "storage_type": "physical_vault",
+  "location": "Elmahrosa Civic Treasury",
+  "verification_required": true,
+  "delivery_enabled": true,
+  "certification_enabled": true,
+  "governance": {
+    "badge_locked": true,
+    "petition_signed": true,
+    "pi_sdk_verified": true,
+    "treasury_auto_contribution": true
+  },
+  "logging": {
+    "sky_log_enabled": true,
+    "orcid_logging_enabled": true,
+    "log_format": "chapter_resurrection.md"
+  }
+}
