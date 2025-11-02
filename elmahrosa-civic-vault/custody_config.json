@@ -1,0 +1,11 @@
+{
+  "custodian": "First Bank Elmahrosa (FPBE)",
+  "custodian_page": "https://github.com/Elmahrosa/FPBE-First-Pimisr-Bank-Elmahrosa/",
+  "badge_type": "physical_vault",
+  "location": "Elmahrosa Civic Treasury",
+  "verification_required": true,
+  "petition_sign_enabled": true,
+  "voting_enabled": true,
+  "trusted_logging": true,
+  "custody_log_enabled": true
+}
