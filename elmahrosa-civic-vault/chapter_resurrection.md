@@ -17,4 +17,4 @@ Verification: Enabled
 Logging: Synced to chapter_resurrection.md  
 Repo: [FPBE GitHub](https://github.com/Elmahrosa/FPBE-First-Bank-Elmahrosa)
 
-ORCID iD: 0009-0002-6498-5569
+ORCID iD: [0009-0002-6498-5569](https://orcid.org/0009-0002-6498-5569)
