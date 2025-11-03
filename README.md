@@ -1,6 +1,7 @@
 # 🏺 TEOS Gold Reserve ($TGR)
 **“The Gold of the Pharaohs — tokenized for the new age.”**  
 Powered by **Elmahrosa International** under the **TEOS Egypt** ecosystem.
+
 ---
 
 ## 🌍 Vision
@@ -28,6 +29,7 @@ Every token is **auditable**, **redeemable**, and **UID-bound**.
 | Custodian           | First Bank Elmahrosa (FPBE)                                           |
 | Vault Location      | Elmahrosa Civic Vault, 30° 0' 0"N, 30° 0' 0"E                          |
 | Admin Wallet        | `Akvm3CbDN448fyD8qmQjowgBGpcYZtjuKFL4xT8PZhbF`                         |
+| Mint Wallet         | `F1YLmukcxAyZj6zVpi2XaVctmYnuZQB5uHpd3uUpXxr6` (legacy + future issuance) |
 | ORCID Bond          | [0009-0002-6498-5569](https://orcid.org/0009-0002-6498-5569)          |
 | Registry            | [`vault_registry.json`](https://github.com/Elmahrosa/FPBE-First-Pimisr-Bank-Elmahrosa/blob/main/fpbe/custody/vault_registry.json) |
 
