@@ -1,62 +1,50 @@
 # 🏺 TEOS Gold Reserve ($TGR)
-**“The Gold of the Pharaohs — tokenized for the new age.”**
-
-> “The Gold of the Pharaohs — tokenized for the new age.”  
-> Powered by **Elmahrosa International** under the **TEOS Egypt** ecosystem.
+**“The Gold of the Pharaohs — tokenized for the new age.”**  
+Powered by **Elmahrosa International** under the **TEOS Egypt** ecosystem.
 
 ---
 
 ## 🌍 Vision
 
 Each **$TGR** token = **1 gram of 99.99% physical gold**,  
-audited and secured by **Elmahrosa International**  
-within the **TEOS Egypt Network**.  
+secured by **FPBE** inside the **Elmahrosa Civic Vault**,  
+and governed by **badge-locked**, **petition-first**, **Pi SDK–verified** flows.  
 
-Built on **Solana + Pi Network**, bridging real assets and digital trust.  
-
-Each **$TGR** token represents  
-**1 gram of 99.99% physical gold**,  
-fully **auditable**, **redeemable**, and **linked to civic identity (UID)**.
-
-
-## 🧱 Architecture Overview
-
-| Layer | Description |
-|-------|-------------|
-| 🧩 Smart Contract | Solana Anchor program for mint/burn + reserve sync |
-| ⚙️ Backend API | Node.js / Firebase Functions for KYC, audits, petition, and reserve updates |
-| 🖥️ Frontend | React + Tailwind + shadcn/ui (deployed on Vercel) |
-| 🔐 Civic Identity Layer | Firebase Auth + UID ↔ Wallet mapping |
-| 💰 Accepted Payments | PI, $ERT, $TEOS, and SOL |
-| 🪙 Network | Solana SPL standard |
+Built on **Solana SPL** and **Pi SDK only** —  
+no forks, no external dependencies, no dilution.  
+Every token is **auditable**, **redeemable**, and **UID-bound**.
 
 ---
 
 ## 💎 Token Specifications
 
-| Field | Value |
-|-------|-------|
-| Name | TEOS Gold Reserve |
-| Symbol | $TGR |
-| Network | Solana SPL |
-| Backing | 1 gram physical gold per token |
-| Mint Ratio | 1:1 verified reserve |
-| Redemption Options | Physical gold or $ERT equivalent |
-| Audited By | Elmahrosa International Auditing Committee |
-| Admin Wallet | `Akvm3CbDN448fyD8qmQjowgBGpcYZtjuKFL4xT8PZhbF` |
+| Field               | Value                                                                 |
+|---------------------|-----------------------------------------------------------------------|
+| Name                | TEOS Gold Reserve                                                     |
+| Symbol              | $TGR                                                                  |
+| Network             | Solana SPL                                                            |
+| Backing             | 1 gram physical gold per token                                        |
+| Mint Ratio          | 1:1 verified reserve                                                  |
+| Redemption Options  | Physical gold or $ERT equivalent                                      |
+| Custodian           | First Bank Elmahrosa (FPBE)                                           |
+| Vault Location      | Elmahrosa Civic Vault, 30° 0' 0"N, 30° 0' 0"E                          |
+| Admin Wallet        | `Akvm3CbDN448fyD8qmQjowgBGpcYZtjuKFL4xT8PZhbF`                         |
+| ORCID Bond          | [0009-0002-6498-5569](https://orcid.org/0009-0002-6498-5569)          |
+| Registry            | [`vault_registry.json`](https://github.com/Elmahrosa/FPBE-First-Pimisr-Bank-Elmahrosa/blob/main/fpbe/custody/vault_registry.json) |
 
 ---
+
 ## 🧱 Architecture Overview
 
 | Layer                  | Description                                                                 |
 |------------------------|------------------------------------------------------------------------------|
-| 🧩 Smart Contract       | Solana Anchor program for mint/burn logic and reserve synchronization        |
-| ⚙️ Backend API          | Node.js + Firebase Functions for KYC, petition verification, and audit sync  |
-| 🖥️ Frontend             | React + Tailwind + shadcn/ui (deployed on Vercel)                            |
-| 🔐 Civic Identity Layer | Firebase Auth + UID ↔ Wallet mapping for contributor verification            |
-| 💰 Accepted Payments    | $ERT, $TEOS, and SOL                                                         |
+| 🧩 Smart Contract       | Solana Anchor program for mint/burn logic and reserve sync                  |
+| 🔐 Civic Identity Layer | Pi SDK UID ↔ Wallet mapping for contributor verification                    |
 | 🪙 Network              | Solana SPL standard                                                          |
+| 🛡️ Governance           | Badge-locked, petition-first, Pi SDK–verified                                |
+| 📜 Logging              | Sky log + ORCID-linked, synced to `chapter_resurrection.md`                 |
 
+---
 
 ## 🔧 Smart Contract Functions
 
@@ -64,14 +52,14 @@ fully **auditable**, **redeemable**, and **linked to civic identity (UID)**.
 initialize_reserve(ctx, total_gold_grams: u64)
 // Sets up the gold reserve vault and authority
 
-mint_tgr(ctx, user: Pubkey, grams: u64)
+mint_tgr(ctx, uid: String, grams: u64)
 // Mints $TGR to UID-bound wallet, updates reserve
 
-burn_tgr(ctx, user: Pubkey, grams: u64)
+burn_tgr(ctx, uid: String, grams: u64)
 // Burns $TGR and updates redemption balance
 
 update_reserve(ctx, auditor_data: ReserveUpdate)
-// Syncs reserve state with off-chain audit
+// Syncs reserve state with Pi SDK audit
 
 get_reserve_state(ctx)
 // Returns current reserve, supply, and audit status
@@ -81,5 +69,3 @@ pause_minting(ctx)
 
 resume_minting(ctx)
 // Admin-only: re-enable minting after audit
----
-
