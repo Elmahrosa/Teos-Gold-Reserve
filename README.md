@@ -1,7 +1,6 @@
 # 🏺 TEOS Gold Reserve ($TGR)
 **“The Gold of the Pharaohs — tokenized for the new age.”**  
 Powered by **Elmahrosa International** under the **TEOS Egypt** ecosystem.
-
 ---
 
 ## 🌍 Vision
