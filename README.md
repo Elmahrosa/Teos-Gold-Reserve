@@ -1,7 +1,15 @@
 # 🏺 TEOS Gold Reserve ($TGR)
 **“The Gold of the Pharaohs — tokenized for the new age.”**  
 Powered by **Elmahrosa International** under the **TEOS Egypt** ecosystem.
+## 🛑 PROPRIETARY & CONFIDENTIAL — TEOS EGYPT
+[![Strictly Proprietary](https://img.shields.io/badge/Strictly%20Proprietary-TEOS%20Sovereign%20License-ff0000?style=for-the-badge)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)
 
+> Copyright © 2025 Elmahrosa International. All Rights Reserved.  
+> This material is NOT open source and is protected by the TEOS Egypt Sovereign License (TESL).  
+> For the full license text, see [TEOS Egypt Sovereign License (TESL)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md).
+> 
+> **Initial Author:** Elmahrosa International  
+> **Governing law and venue:** Cairo, Arab Republic of Egypt.
 ---
 
 ## 🌍 Vision
